@@ -38,6 +38,16 @@ a {
   text-decoration: none;
   color: #000000;
 }
+footer {
+  text-align: center;
+  color: #ffffff;
+}
+#git {
+  color: #ffffff;
+}
+#git:hover {
+  color: #017507;
+}
 .submit:hover,
 #current-city:hover {
   background-color: #696868d2;
