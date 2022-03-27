@@ -21,7 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <div class="row">
         <div class="col-6">
           <form id="search-form">
@@ -37,10 +37,10 @@
             <button id="current-city">Current city</button>
           </form>
         </div>
-        <div class="col-6 location">
+        <div class="col-6 location" id="location">
           <h1 id="city"></h1>
-          <h6>today</h6>
-          <img class="imgmain" src="images/snowing.png" />
+          <h6>Date</h6>
+          <img id="mainicon" src="images/snowing.png" />
           <h2>
             <span id="temp"></span><a href="#" id="celsius">°C </a>|<a
               href="#"
@@ -49,8 +49,8 @@
             >
             &nbsp;
           </h2>
-          <h5 id="weather-description"></h5>
           <p>Real feel: <span id="real-feel"></span>°C</p>
+          <h5 id="weather-description"></h5>
         </div>
       </div>
       <div class="row">
