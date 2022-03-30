@@ -38,7 +38,10 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-
+footer {
+  text-align: center;
+  color: #ffffff;
+}
 #git {
   color: #ffffff;
 }
