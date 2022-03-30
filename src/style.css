@@ -13,7 +13,6 @@ img {
 p {
   margin-bottom: 7px;
 }
-
 h1 {
   font-size: 1.5em;
   padding-bottom: 0;
@@ -39,16 +38,6 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-footer {
-  text-align: center;
-  color: #ffffff;
-}
-#git {
-  color: #ffffff;
-}
-#git:hover {
-  color: #017507;
-}
 .submit:hover,
 #current-city:hover {
   background-color: #696868d2;
@@ -56,7 +45,7 @@ footer {
   box-shadow: 1px 2px 3px #413c3cd8;
 }
 .container {
-  margin: 8% auto 0;
+  margin: 8% auto;
   max-width: 650px;
   height: 26em;
   width: auto;
@@ -85,9 +74,12 @@ footer {
 .col-6 {
   padding-top: 10px;
 }
+#forecast {
+  padding-top: 10px;
+}
 .location {
   text-align: right;
-  padding-bottom: 9.9em;
+  padding-bottom: 10em;
   color: #ffffff;
 }
 .searchcity {
@@ -109,6 +101,7 @@ footer {
     zoom: 70%;
   }
 }
+
 @media only screen and (max-width: 800px) {
   html {
     zoom: 80%;
